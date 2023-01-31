@@ -22,17 +22,17 @@ const Home: NextPage = () => {
           </h1>
 
           <div className="flex flex-col items-center gap-2">
-            <p className="text-1xl text-white">
-              A community and database for historical course averages and
+            <p className="text-1xl text-white text-center">
+              A community and database for past course averages and
               resources.
               {/* {hello.data ? hello.data.greeting : "Loading tRPC query..."} */}
             </p>
-            <p className="text-1xl mx-4 max-w-[800px] text-center text-white">
+            <p className="text-1xl mx-4 max-w-[600px] text-center text-gray-400">
               Since this community depends on everyone being able to share their
-              personal grades and resources,please submit your personal grades
-              to gain access. You could submit one of them or all of them! All
-              submissions are anonymous.
+              personal grades and resources, please submit your personal grades
+              to gain access.
             </p>
+            <p className="text-gray-400">All submissions are anonymous.</p>
             <AuthShowcase />
           </div>
         </div>
