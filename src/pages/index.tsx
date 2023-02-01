@@ -18,13 +18,12 @@ const Home: NextPage = () => {
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#262231] to-[#15162c]">
         <div className="container flex flex-col items-center justify-center gap-5 px-4">
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-            Grades. <span className="text-[hsl(280,100%,70%)]">wtf</span>
+            Grades.<span className="text-[hsl(280,100%,70%)]">wtf</span>
           </h1>
 
           <div className="flex flex-col items-center gap-2">
-            <p className="text-1xl text-white text-center">
-              A community and database for past course averages and
-              resources.
+            <p className="text-1xl text-center text-white">
+              A community and database for past course averages and resources.
               {/* {hello.data ? hello.data.greeting : "Loading tRPC query..."} */}
             </p>
             <p className="text-1xl mx-4 max-w-[600px] text-center text-gray-400">
@@ -32,8 +31,11 @@ const Home: NextPage = () => {
               personal grades and resources, please submit your personal grades
               to gain access.
             </p>
-            <p className="text-gray-400">All submissions are anonymous.</p>
-            <AuthShowcase />
+            <p className="text-gray-400">All submissions and contributions are anonymous.</p>
+            {/* <AuthShowcase /> */}
+            <button className="mt-5 rounded-lg bg-white/10 px-10 py-3 font-semibold text-white no-underline transition hover:bg-white/20">
+              Get Started
+            </button>
           </div>
         </div>
       </main>
